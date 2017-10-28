@@ -52,7 +52,7 @@ class Tutor(models.Model):
 	subjectTag = TaggableManager()
 	shortIntro = models.TextField()
 	hourlyRate = models.IntegerField()
-	blackedOutTime = models.DurationField()
+	#blackedOutTime = models.DurationField()
 	isContracted = models.BooleanField()
 	def __str__(self):
 		return str(self.username)
